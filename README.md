@@ -1,4 +1,4 @@
-# Multifactor-Model-Strategy-based-on-machine-learning
+# Multifactor-Model-Strategy-based-on-data-mining
 ## Introduction
 This project aims to find the 
 ## Reference
