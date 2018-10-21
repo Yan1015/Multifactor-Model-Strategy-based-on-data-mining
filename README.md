@@ -13,6 +13,8 @@ For the X variables and Y variables, we constructed financial signals by calcula
 
 For each financial signal, we need to test whether it can explain the future stock returns. So we constructed th long-short portfolio by sorting the financial signal. and separating the stocks into 10 groups based on the rank for financial signal. So the first group is the stocks with maximum financial signal and the last group  with minimum financial signal.
 
+For the portfolio, we calculate the annulize returns. If the returns is monotonically decreasing or increasing, it means the financial signal can perfectly explain the future stock returns.
+
 ## Reference
 [Fundamental Analysis and the Cross-Section of Stock Returns:
 A Data-Mining Approach] 
