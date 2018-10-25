@@ -3,6 +3,8 @@
 This project aims to find the factors which can explain the stock return patterns in Chinese stock market using data mining.
 
 I focus on fundamental-based variables, i.e., variables derived from financial statements. I used them to construct a “universe” of fundamental signals by using permutational arguments. The ability to construct such a universe is important because in order to account for the effects of data mining, one should not only include variables that were reported, but also variables that were considered but unreported. And the unreported one can be constructed by the financial statement variables.
+
+And I found out that the signals related to Financial Expenses and Administrative expense have a better result.
 ## Data
 I downloaded the infomation of three main financial statements including Balance Sheet Statement, Income Statement and Cash Flows Statement for all the stocks(company) in Chinese stock market from 2007 to 2016. And delete the financial variables which have more than 30% missing data and there are 65 accounting variables left.
 
